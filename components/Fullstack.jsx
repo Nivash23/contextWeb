@@ -6,16 +6,16 @@ function Fullstack() {
     <div className='container-fluid d-flex justify-content-start'>
       <div className="row">
         <div className="col-md-3">
-          <Card title='Full stack' image='../images/fullstack/full-stack-web-development.jpeg' />
+          <Card title='Full stack' image='../full-stack-web-development.jpeg' />
         </div>
         <div className="col-md-3">
-          <Card title='Full stack' image='../images/fullstack/fullstack1.png' />
+          <Card title='Full stack' image='../fullstack1.png' />
         </div>
         <div className="col-md-3">
-          <Card title='Full stack' image='../images/fullstack/fullstack2.avif'/>
+          <Card title='Full stack' image='../fullstack2.avif'/>
         </div>
         <div className="col-md-3">
-          <Card title='Full stack' image='../images/fullstack/full-stack3.png'/>
+          <Card title='Full stack' image='../full-stack3.png'/>
         </div>
       </div>
       
