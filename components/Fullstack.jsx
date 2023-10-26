@@ -12,7 +12,7 @@ function Fullstack() {
           <Card title='Full stack' image='../fullstack1.png' />
         </div>
         <div className="col-md-3">
-          <Card title='Full stack' image='../fullstack2.avif'/>
+          <Card title='Full stack' image='../fullstack4.jpeg'/>
         </div>
         <div className="col-md-3">
           <Card title='Full stack' image='../full-stack3.png'/>

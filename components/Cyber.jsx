@@ -6,16 +6,16 @@ function Cyber() {
     <div className='container-fluid d-flex justify-content-start'>
       <div className="row">
         <div className="col-md-3">
-          <Card title='Cyber Security' image='../images/cyber/cyber.jpeg' />
+          <Card title='Cyber Security' image='../cyber.jpeg' />
         </div>
         <div className="col-md-3">
-          <Card title='Cyber Security' image='../images/cyber/c1.jpg' />
+          <Card title='Cyber Security' image='../c1.jpg' />
         </div>
         <div className="col-md-3">
-          <Card title='Cyber Security' image='../images/cyber/c2.jpg'/>
+          <Card title='Cyber Security' image='../c2.jpg'/>
         </div>
         <div className="col-md-3">
-          <Card title='Cyber Security' image='../images/cyber/c3.jpg'/>
+          <Card title='Cyber Security' image='../c3.jpg'/>
         </div>
       </div>
       

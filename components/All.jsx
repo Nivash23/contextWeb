@@ -6,16 +6,16 @@ function All() {
     <div className='container-fluid d-flex justify-content-start'>
       <div className="row">
         <div className="col-md-3">
-          <Card title='head' image='../images/Career/career1.jpeg' />
+          <Card title='head' image='../career1.jpeg' />
         </div>
         <div className="col-md-3">
-          <Card title='head' image='../images/fullstack/fullstack1.png'/>
+          <Card title='head' image='../fullstack1.png'/>
         </div>
         <div className="col-md-3">
-          <Card title='head' image='../images/cyber/c1.jpg'/>
+          <Card title='head' image='../c1.jpg'/>
         </div>
         <div className="col-md-3">
-          <Card title='head' image='../images/datascience/datascience1.webp'/>
+          <Card title='head' image='../datascience1.webp'/>
         </div>
       </div>
       
