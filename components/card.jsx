@@ -30,7 +30,7 @@ function card() {
             <Col id='name' className='col-8' >
               <h1>{ Productname1}</h1>
               </Col>
-            <Col id='quantity' >
+            <Col  id='quantity' >
                 <select onChange={(val) => {
                   setPrice(Price);
                   priceHandler(val,Price)
