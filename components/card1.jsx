@@ -5,34 +5,33 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import style from '../src/assets/Card.css'
 
-function card() {
-  function priceHandler(val) {
+function card1() {
+  function ProductpriceHandler(val) {
     let n;
     let total;
     n = val.target.value;
-    total = n * Price;
+    total = n * ProductPrice1;
   
-    setPrice(total);
+    setProductPrice1(total);
   }
   
-  const { Productname1,p1,Price,setPrice} = useContext(MessageContext)
+  const { Productname1,p1,Price,setPrice,Productname2,p,ProductPrice1,setProductPrice1} = useContext(MessageContext)
   return (
-    <div>
+      <div>
 
         <Row id='container'>
         <Row id='advertise'>
           <Col className='col-3' id='img'>
-             <img src={p1} />
+             <img src={p} />
           </Col>
           <Col>
           <Row>
             <Col id='name' className='col-8' >
-              <h1>{ Productname1}</h1>
+              <h1>{ Productname2}</h1>
               </Col>
             <Col  id='quantity' >
                 <select onChange={(val) => {
-                  setPrice(249);
-                  priceHandler(val,Price)
+                  ProductpriceHandler(val)
                 }}>
                     <option>1</option>
                     <option>2</option>
@@ -40,14 +39,16 @@ function card() {
                 </select>
               </Col>
               <Col id='Price' className='col-2'>
-                <p>-${Price }</p>
+                <p>-${ProductPrice1 }</p>
               </Col>
 
             </Row>
             <Row id='description'>
               <Col className='col-7'>
                 <p id='deschead'>Details & core</p>
-                <p id='desc'>A wolf that will not rest till he has had his revenge… Madhu, Gaurav and Sunil are on a school trip to the hills of Chikmagalur with their classmates and Rajesh sir, their teacher. All they are looking forward to are two days of fun and hikes</p>
+                <p id='desc'>Children will love reading and listening to these timeless tales and their helpful morals, which have been brought to life by bright and bold illustrations.
+
+</p>
                 <p id='sus'>Sustainablity</p>
               </Col>
               <Col id='remove' className='col-3'>
@@ -66,7 +67,7 @@ function card() {
               <h3 id='ship'>SHIPPING :</h3>
             </Col>
             <Col>
-              <p id='subtotalprice'>-${ Price}</p>
+              <p id='subtotalprice'>-${ ProductPrice1}</p>
               <p id='charge'>FREE</p>
             </Col>
           </Row>
@@ -76,7 +77,7 @@ function card() {
                <h3 id='tot'>TOTAL :</h3>
             </Col>
             <Col>
-              <p id='pri'>-${Price}</p>
+              <p id='pri'>-${ProductPrice1}</p>
               <p id='offer'>Get Daily Cash With Nespola Card</p>
             </Col>
           </Row>
@@ -87,4 +88,4 @@ function card() {
   )
 }
 
-export default card
+export default card1
